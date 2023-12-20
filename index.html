@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #a {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        border: 2px solid black;
+        width: 200px;
+        overflow: scroll;
+        background-color: wheat;
+        color: red;
+        display: inline-block;
+      }
+      #b {
+        display: inline-block;
+        position: absolute;
+        left: 250px;
+        top: 10px;
+        border: 1px solid black;
+        height: 1700px;
+        background-color: wheat;
+      }
+      .x {
+        position: absolute;
+        left: 30px;
+      }
+      #b li {
+        color: red;
+      }
+      #b p {
+        text-align: justify;
+        color: red;
+      }
+      button:hover {
+        background-color: yellow;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="a">
+      <b>Rental from $99</b><br /><br />
+      <b> Per night</b><br /><br />
+      <form>
+        <label for="check in">Check in</label><br />
+        <input type="date" value="20/12/2023" required /><br /><br />
+        <label for="check out">Check out</label><br />
+        <input type="date" value="20/12/2023" required /><br /><br />
+        <label for="adults">Adults</label><br />
+        <input type="number" value="number" required /><br /><br />
+        <label for="kids">Kids</label><br />
+        <input type="number" value="number" required /><br /><br />
+        <button>search for avialbility</button>
+      </form>
+      <br /><br /><br />
+      <a href="#m"><h2>The apartment</h2></a>
+      <br />
+      <a href="#n"><h2>suscribe</h2></a>
+      <br />
+      <a href="#0"><h2>contact</h2></a>
+
+      <br />
+    </div>
+    <div id="b">
+      <b style="font-size: 2em; color: green" id="m">The Apartment</b><br />
+      <img src="./livingroom.jpg" / ><br /><br />
+      <div class="x">
+        <img src="./bedroom.jpg" width="200px " />
+        <img src="./diningroom.jpg" width="200px" />
+        <img src="./livingroom (1).jpg" width="200px" />
+        <img src="./livingroom2.jpg" width="200px" />
+        <br />
+        <hr />
+        <br />
+        <b style="font-size: 20px; color: green"> The space</b><br /><br />
+        <li>max people:4</li>
+        <li>bed romms:2</li>
+        <li>bathrooms:2</li>
+        <li>checki in:12:00 pm</li>
+        <li>check out:10:00 am</li>
+        <br />
+        <hr />
+        <br />
+        <b style="font-size: 20px; color: green"> Amenties</b>
+        <li>Shower</li>
+        <li>Wifi</li>
+        <li>T.V</li>
+        <li>Kitchen</li>
+        <li>accessible</li>
+        <li>Heating</li>
+        <br />
+        <hr />
+        <br />
+        <b style="font-size: 20px; color: green">Extra info</b>
+        <p>
+          Our apartment is really clean and we like to keep it that way. Enjoy
+          the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <br />
+        <hr />
+        <br />
+        <b style="font-size: 20px; color: green">Rules</b>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Subscribe to receive updates on
+          available dates and special offers.
+        </p>
+        <button id="n">subscribe</button>
+        <p>
+          <b id="o" style="font-size: 20px; color: green">Contact</b><br />
+          Chicago, US<br />
+          Phone: +00 151515<br />
+          Email: mail@mail.com<br />
+          Questions? Go ahead, ask them:<br />
+        </p>
+        <input
+          style="width: 800px"
+          ="text"
+          value=" name"
+          id=""
+          required
+        /><br /><br />
+        <input
+          style="width: 800px"
+          type="email"
+          value="email"
+          id=""
+        /><br /><br />
+        <input
+          style="width: 800px"
+          type="text"
+          value="message"
+          id=""
+          required
+        /><br /><br />
+        <button style="width: 300px">submit</button>
+      </div>
+    </div>
+  </body>
+</html>
